@@ -19,7 +19,7 @@ export default function SearchOrder() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         placeholder="Search Order..."
-        className="rounded p-1"
+        className="input"
       />
     </form>
   );
